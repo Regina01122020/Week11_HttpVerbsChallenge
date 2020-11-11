@@ -1,0 +1,40 @@
+body{
+    height: 500px;
+    background-image: url('https://cdn.ravensburger.de/images/produktseiten/1024/14708_1.jpg');
+    background-size: cover;
+}
+
+h6:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#h{
+    text-align: center;
+}
+
+#div{
+    border-style: solid;
+    background-color: darkgrey;
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    display: table;
+}
+
+#div1{
+    border-style: dashed;
+    background-color: lightsalmon;
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    display: table;
+}
+
+#div2{
+    border-style: solid;
+    background-color: lightseagreen;
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+}

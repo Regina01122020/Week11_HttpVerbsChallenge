@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>New Warm-up Challenge</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css"></link>
+    <script src="./views/display.js" defer></script>
+</head>
+<body>
+
+    <div id="div">
+
+        <h2>Welcome to my warm-up challenge!</h2>
+        <p>My express app for week 11 is about pets. 
+        My favorite pet is a puppy, He's name is Cody, I named him Cody because I love to code.
+        How about you, What's your favorite pet?</p>
+        <h4>Tell me about your favorite pet by filling the form below:</h4>
+        <div id="div1">
+            <form id="myForm">
+                <p>Picture of your pet: <input type="url" id="picture" name="picture" required></p>
+                <p>Name of your pet: <input type="text" id="name" name="name" required></p>
+                <p>Type of your pet: <input type="text" id="type" name="type_of_pet" required></p>
+                <p>Colour of your pet: <input type="text" id="colour" name="pet_colour" required></p>
+                <p>Reason for your pet name: <textarea  id="reason" name="reason_for_pet_name" rows="3" required></textarea></p>
+                <br>
+                <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" name="reset" id="resetbtn" class="resetbtn" value="Clear"/>
+                </div>   
+            </form>
+        </div>
+
+    </div>
+    <br>
+    <div id="div2">
+        <h2 id="h"> Here is my pet collections: </h2>
+        <div id="petForm-section"></div>
+        <br><br><br> 
+    </div>
+    
+</body>
+</html>

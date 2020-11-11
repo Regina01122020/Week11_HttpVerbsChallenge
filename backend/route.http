@@ -1,0 +1,21 @@
+GET http://localhost:3000/pet HTTP/1.1
+
+###
+
+POST http://localhost:3000/pet HTTP/1.1
+content-type: application/json
+
+{
+    "picture": "add url here",
+    "name": "add name here",
+    "type_of_pet": "add pet type here" ,
+	"pet_colour": "add pet colour here",
+	"reason_for_pet_name": "add reason for your pet name here"
+}
+
+###
+
+DELETE http://localhost:3000/pet/5f962341a445631ef46d18a3 HTTP/1.1
+
+###
+
